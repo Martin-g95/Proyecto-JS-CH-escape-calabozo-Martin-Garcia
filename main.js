@@ -35,7 +35,7 @@ alert("las antorchas estan encendidas... que raro, hay una mesa con mutiples obj
 let hongo = parseInt(prompt("La lista es especifica, debes colocar un puñado de 3 hongos 'Amanita Muscaria', y por suerte, los tienes justo en la mesa, ahora escribe la cantidad de hongos que quieres colocar, ten en cuenta que el maximo son 5 hongos, aunque la receta dice que coloques 3"));
 //bucle que condiciona al usuario a escribir bien
 while(!hongo || hongo <1 || hongo >5){
-    alert("Tienes que colocar un numero del 1 al 5")
+    alert("Tienes que colocar un numero del 1 al 5, y solo deben ser numeros")
     hongo = parseInt(prompt("La lista es especifica, debes colocar un puñado de 3 hongos 'Amanita Muscaria', y por suerte, los tienes justo en la mesa, ahora escribe la cantidad de hongos que quieres colocar, ten en cuenta que el maximo son 5 hongos, aunque la receta dice que coloques 3"));
 
 }
@@ -45,7 +45,7 @@ alert(`Has tomado un puñado de ${hongo} hongos y los colocaste en el recipiente
 let lenguaDragon = parseInt(prompt("La lista dice que debes colocar en el mortero unas 5 hojas de 'Lengua de dragon' ten en cuenta, que tambien dice que maximo son hasta 15 hojas, escribe la cantidad de hojas que quieres colocar en el recipiente. "));
 //bucle que condiciona al usuario a escribir bien
 while(!lenguaDragon || lenguaDragon <5 || lenguaDragon >15){
-    alert("No puedes colocar menos de 5 hojas o mas de 15")
+    alert("No puedes colocar menos de 5 hojas o mas de 15, recuerda que solo debes colocar numeros")
     lenguaDragon = parseInt(prompt("La lista dice que debes colocar en el mortero unas 5 hojas de 'Lengua de dragon' ten en cuenta, que tambien dice que maximo son hasta 15 hojas, escribe la cantidad de hojas que quieres colocar en el recipiente. "));
 }
 //resultado de los dados
